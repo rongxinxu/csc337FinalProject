@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <!-- 
+		University of Arizona
+    	CSC337 Homework Assignment 8
+    	Chat-It
+    	Author: Vincent Xu
+		NetID: rongxinxu
+		Due Date: 10/31/2018
+		
+        This HTML file is the context for the page, input boxes, display messages box...
+	 -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chat-It</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="chatit.css" />
+    <script src="chatit.js"></script>
+</head>
+<body>
+    <h1>CSC337 Chat Room</h1>
+
+    <div id="message-container">
+        <div id="left">
+            <h2 id="header">Let's Chat</h2>
+            <div id="box"></div>
+        </div>
+        <div id="information">
+            <div id="right">
+                <label>
+                    <h3>Name:</h3>
+                    <input id="name" type="text" placeholder="Enter your name">
+                </label>
+            
+                    <h3 id="text-input">Message:</h3>
+                    <textarea id="input" type="text" placeholder="Type your message..."></textarea>
+                <div id="button"><button id="send">Send Message</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

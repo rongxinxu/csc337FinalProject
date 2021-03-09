@@ -1,0 +1,53 @@
+/*
+    University of Arizona CSc337 HW3
+    Guessing a Number Game
+    Author: Vincent Xu
+    NetID: rongxinxu
+    CSS for "guessingGame.html", to achieve the proper layout of the page
+*/
+body, div, h1, p {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 72pt;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    background-color: bisque;
+}
+
+#left {
+    width: 60%;
+    margin-left: 10px;
+}
+
+#right {
+    width: 20%;
+    padding: 30px;
+    background-color: dodgerblue;
+    margin-left: auto;
+}
+
+#maximum, #minimum {
+    width: 45px;
+}
+
+#columns, #twodiv {
+    display: flex;
+}
+
+#leftdiv, #guessBox {
+    margin-left: 60px;
+}
+
+#guessBox .title {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#information .guesses {
+    font-weight: normal;
+}

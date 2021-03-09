@@ -1,0 +1,61 @@
+/* 
+    University of Arizona
+	CSC337 Homework Assignment 9
+	Paint (Canvas)
+	Author: Vincent Xu
+	NetID: rongxinxu
+    Due Date: 11/7/2018
+    This is the style sheet for the paint.html page
+ */
+body {
+    background-color: #222222;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+button {
+    cursor: default;
+}
+
+#canvasBoard {
+    background-color: white;
+}
+
+#drawing-controls {
+    /* need bigger width so Changed to 130px */
+    width: 130px;   
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#colorPicker, #mode, #penSizeSection {
+    margin: 15px;
+    /* width: 100px; */
+}
+
+#modes button {
+    margin: 5px;
+    width: 80px;
+}
+
+#penSizeSection {
+    height: 100px;
+}
+
+#penSizeSection button, #sizeText {
+    float: left;
+    clear: right;
+}
+
+#penCanvas {
+    float: right;
+}

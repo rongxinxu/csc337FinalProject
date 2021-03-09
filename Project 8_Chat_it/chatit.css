@@ -1,0 +1,81 @@
+/* 
+    University of Arizona
+	CSC337 Homework Assignment 8
+	Chat-It
+	Author: Vincent Xu
+	NetID: rongxinxu
+    Due Date: 10/31/2018
+    This is the style sheet for the chatit.html page
+ */
+body{
+    text-align: center;
+    background-color: #669cec;
+    background: linear-gradient(to bottom, #669cec, white);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+#box, h2 {
+    margin: 0px;
+    width: 100%;
+}
+
+h2 {
+    background-color: white;
+}
+
+#message-container {
+    height: 500px;
+    justify-content: center;
+    display: flex;
+}
+
+#information {
+    width: 400px;
+    margin: 10px;
+}
+
+#text-input {
+    margin-top: 50px;
+}
+
+textarea {
+    width: 350px;
+    height: 100px;
+}
+
+#input, #name, p{
+    font-size: 15pt;
+}
+
+#left {
+    width: 700px;
+}
+
+#box {
+    float: left;
+    height: 472px;
+    background-color: #53e991;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-wrap: break-word;
+}
+
+#box, #input, #left {
+    overflow: auto;
+    resize: none;
+}
+
+p {
+    font-weight: bold;
+    margin: 5px 10px;
+}
+
+.comments {
+    font-size: 12pt;
+    display: inline;
+    font-weight: normal;
+}

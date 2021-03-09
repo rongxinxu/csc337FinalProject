@@ -1,0 +1,68 @@
+/* 
+    University of Arizona
+	CSC337 Homework Assignment 10
+	Kevin Bacon
+	Author: Vincent Xu
+	NetID: rongxinxu
+    Due Date: 11/18/2018
+    This is the style sheet for the mymdb.html page
+ */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, sans-serif;
+}
+
+#mainSection {
+    background-color: white;
+}
+
+h1, #KevinBacon, p, table, .twoField {
+    text-align: center;
+}
+
+fieldset {
+    width: 24em;
+    margin: 1em;
+}
+
+#KevinBacon {
+    margin-top: 1em;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+#allStuff, fieldset, #mainSection {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#allStuff, table {
+    width: 90%;
+}
+
+table{
+    margin: auto;
+    border: 1px solid #dad9d4;
+    border-collapse: collapse;
+}
+
+body, tr:nth-child(even) {
+    background-color: #dad9d4;
+}
+
+#banner, #W3C {
+    background-image: url("http://allisonobourn.com/337/images/kevinbacon/banner-background.png");
+    color: white;
+    position: relative;
+}
+
+#banner, #mainSection, #W3C {
+    padding: 1em;
+}
+
+#W3C {
+    margin-bottom: 2em;
+}

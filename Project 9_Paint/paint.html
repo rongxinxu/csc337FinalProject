@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <!-- 
+		University of Arizona
+    	CSC337 Homework Assignment 9
+    	Paint (Canvas)
+    	Author: Vincent Xu
+		NetID: rongxinxu
+		Due Date: 11/7/2018
+        This HTML file is the context for the page,
+        and separate different sections for drawing.
+        Create buttons and set some default layout for canvas
+	 -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSC 337 Paint</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="paint.css" />
+    <script src="paint.js"></script>
+</head>
+<body>
+    <h1 id="title">CSC 337 Paint</h1>
+
+    <div id="main">
+        <canvas id="canvasBoard" width="700" height="500"></canvas>
+
+        <div id="drawing-controls">
+            
+            <canvas id="colorPicker" width="100" height="100"></canvas>
+            
+            <div id="penSizeSection">
+                <div id="sizeText">pen size:</div>
+                <canvas id="penCanvas" width="50" height="50"></canvas>
+                <button id="plus">+</button>
+                <button id="minus">-</button>
+            </div>
+
+            <div id="modes">
+                <button id="penButton">Pen</button>
+                <button id="circlesButton">Circles</button>
+                <button id="squaresButton">Squares</button>
+                <button id="linesButton">Lines</button>
+                <button id="clearButton">Clear</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

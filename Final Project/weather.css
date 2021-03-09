@@ -1,0 +1,151 @@
+/* 
+    University of Arizona
+    CSC337
+    Final Project
+    Author: Vincent Xu
+    NetID: rongxinxu
+    Last edited date: 11/30/18
+
+    This is the style sheet for weather.html
+    Change background image depend on the weather description group
+*/
+body {
+    background-image: url("https://ak3.picdn.net/shutterstock/videos/25551563/thumb/1.jpg?i10c=img.resize(height:160)");
+    cursor: default;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#homeIcon {
+    width: 50px;
+    height: 50px;
+}
+
+h1, h3, li, #searchArea {
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 30px;
+}
+
+h2 span {
+    font-size: 30pt;
+}
+
+h3 {
+    margin: auto;
+}
+
+h2, h3 {
+    text-decoration: underline;
+}
+
+#display, .list, #searchArea, #weather {
+    position: relative;
+}
+
+#searchBar {
+    width: 35%;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 100%;
+    background-color: #F9F0DA;
+}
+
+#go {
+    position: absolute;
+    padding: 0px;
+    width: 42px;
+    height: 42px;
+    border-radius: 0px 20px 20px 0px;
+    /* background-color:#7BA7AB;  */
+    background-color: white;
+    background-image: url("https://www.gstatic.com/images/branding/product/1x/google_cloud_search_512dp.png");
+}
+
+#go, #searchBar {
+    border: 0px;
+}
+
+#degree {
+    float: right;
+    clear: both;
+}
+
+#display {
+    width: 70%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#weather {
+    width: 75%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body, #go, #weather {
+    background-size: cover;
+}
+
+#history {
+    width: 25%;
+    /* background-color: darkcyan; */
+    background-color: hsla(0, 100%, 90%, 0.1);  /* opacity 0.1*/
+    overflow: hidden;
+}
+
+#errorMessage {
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.list {
+    margin: 22px 10px;
+    list-style: none;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#errorMessage, .list {
+    font-size: 15pt;
+}
+
+.list, #go {
+    cursor: pointer;
+}
+
+.descriptions {
+    margin: 20px;
+    font-size: 18pt;
+}
+
+.clearSky {
+    background-image: url("https://media.giphy.com/media/z4Qquuhfjc3QI/giphy.gif");
+}
+
+.cloud {
+    background-image: url("https://media.giphy.com/media/mno6BJfy8USic/giphy.gif");
+}
+
+.rain { 
+    background-image: url("https://media.giphy.com/media/sGPxb72KvbojK/giphy.gif");
+}
+
+.thunder {
+    background-image: url("https://media.giphy.com/media/3osxYzIQRqN4DOEddC/giphy.gif");
+}
+
+.snow {
+    background-image: url("https://media.giphy.com/media/d3mlmtNPoxNrt4Bi/giphy.gif");
+}
+
+.mist {
+    background-image: url("https://media.giphy.com/media/ECcPsYSTDXB0Q/giphy.gif");
+}

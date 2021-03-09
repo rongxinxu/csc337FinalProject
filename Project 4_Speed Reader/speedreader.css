@@ -1,0 +1,70 @@
+/* 
+    University of Arizona
+    CSC337 Homework Assignment 4
+    SpeedReader
+    Author: Vincent Xu
+    NetID: rongxinxu
+    
+    This is the style sheet for speedreader.html
+*/
+body {
+    background-color: #EAF6F6;
+    font-family: Garamond, serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
+#readerBox {
+    width: 80%;
+    height: 100px;
+    font-size: 36pt;
+    font-family: monospace;
+    line-height: 100px;
+    border: 2px solid #8EBEBE;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#inputBox, #readerBox {
+    background-color: #FFFFFF;
+}
+
+fieldset {
+    display: inline;
+    border: 0px;
+    vertical-align: top;
+}
+
+button {
+    background-color: white;
+}
+
+button, #inputBox {
+    border: 1px solid gray;
+}
+
+legend {
+    text-align: left;
+    border-bottom: 1px solid #8EBEBE;
+    width: 100%;
+    padding: 2px;
+}
+
+legend, #readerBox {
+    font-weight: bold;
+}
+
+button:disabled {
+    background-color: lightgray;
+}
+
+#W3C {
+    left: 5px;
+    bottom: 0px;
+    position: fixed;
+}
+
+button, #W3C img {
+    width: 70px;
+}

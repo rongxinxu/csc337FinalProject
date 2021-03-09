@@ -1,0 +1,173 @@
+/* 
+	University of Arizona
+	CSC337 
+	Author: Vincent Xu
+	NetID: rongxinxu
+
+    This is the style sheet for "tmnt.html"
+    modified the layout of the page
+    Extra Features (All 5 completed)
+*/
+body {
+    background-image: url("http://allisonobourn.com/images/moviebg.png");
+    background-repeat: repeat;
+}
+
+body, dl {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, #page {
+    margin: 0px;
+}
+
+body, dl, .quotes{
+    font-size: 10pt;
+}
+
+dt, h1, #rateScore {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 24pt;
+    text-shadow: 3px 3px #999999;
+    margin-top: 72px;
+}
+
+h1, .quotes {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h1, #image-banner, #page {
+    text-align: center;
+}
+
+#image-banner {
+    height: 50px;
+    background-image: url("http://allisonobourn.com/images/rancidbannerbg.png");
+    top: 0px;
+    left: 0px;
+}
+
+#image-banner, #overallArea {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-banner, #rateScore {
+    background-repeat: repeat-x; 
+}
+
+#image-banner, #W3C {
+    position: fixed;
+    right: 0px;
+}
+
+#left {
+    width: 550px;
+}
+
+#left, p > img {
+    float: left;
+}
+
+#right {
+    float: right;
+    width: 250px;
+}
+
+#rateScore {
+    background-image: url("http://allisonobourn.com/images/rottenlargebg.png");
+    height: 83px;
+    font-size: 48pt;
+    color: red;
+}
+
+#rateScore > img {
+    vertical-align: bottom;
+}
+
+p > img {
+    padding-right: 5px;
+}
+
+#page, #right {
+    background-color: #A2B964;
+}
+
+#left, #overallArea, p {
+    overflow: hidden;
+}
+
+#leftReviews, #rightReviews {
+    width: 47%;
+}
+
+#overallArea {
+    width: 800px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #EEEEEE;
+}
+
+#overallArea, .quotes {
+    border-radius: 20px;
+}
+
+#columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quotes {
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px;
+}
+
+.critics-reviews {
+    margin-bottom: 20pt;
+}
+
+span {
+    font-style: italic;
+}
+
+span#extra {
+    font-size: 8pt;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+}
+
+dd {
+    margin-bottom: 10pt;
+}
+
+dl {
+    /* top and bottom 0pt
+       left and right 10pt */
+    padding: 0pt 10pt;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+#page {
+    clear: both;
+    padding: 5px;
+}
+
+#W3C {
+    bottom: 0px;
+	opacity: 0.5;
+}
+
+#W3C:hover {
+    opacity: 1.0;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <!-- http://www.weatherforecastmap.com/         //check cities' weather -->
+    <!-- University of Arizona
+         CSC337 Final Project
+         Author: Vincent Xu
+         NetID: rongxinxu
+         Last edited date: 12/1/18 
+
+         This HTML can search the current weather of your city
+         Also store your last ten searching histories
+         Each histories can be a button, when its clicked, search bar will filled with current history name
+         More detail see javascript file (weather.js)
+    -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather in Your City</title>
+    <link rel="shortcut icon" href="https://www.wpclipart.com/weather/weather_icons/weather_icons_3/sunny_weather_icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="weather.css" />
+    <script src="weather.js"></script>
+</head>
+<body>
+    
+    <h1>
+        <span id="home">
+            <img id="homeIcon" src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/weather-icon.png" alt="weather-icon">
+        </span>
+        Current Weather in Your City
+    </h1>
+
+    <div id="searchArea">
+        <input id="searchBar" type="text" placeholder="Enter your city name..." />
+        <button type="button" id="go"></button>
+        <div id="errorMessage"></div>
+    </div>
+
+    <div id="display">
+    
+        <div id="weather">
+        </div>
+        <div id="history">
+            <h3 id="historyHeader">Search History</h3>
+            <div id="contain"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!-- 
+	University of Arizona
+	CSC337 
+	Author: Vincent Xu
+	NetID: rongxinxu
+
+	Homework Assignment 2: Movie Review
+	This provided HTML file, I divide multiple sections using 
+	<div>/<span> tags and add id/class attributes for CSS file for the layout
+
+		Extra Features completed:
+		1.Top banner does not scroll
+		2.W3C images do not scroll
+		3.W3C images semi-transparent
+		4.Small white text after 33% rating
+		5.Favorites icon
+ -->
+<html>
+	<head>
+		<title>TMNT - Rancid Tomatoes</title>
+		<meta charset="utf-8" />
+		<link href="movie.css" type="text/css" rel="stylesheet" />
+		<!-- link for Favicon -->
+        <link rel="shortcut icon" type="image/png" href="http://allisonobourn.com/images/rotten.gif" />
+	</head>
+
+	<body>
+
+		<div id="image-banner">
+			<img src="http://allisonobourn.com/images/rancidbanner.png" alt="Rancid Tomatoes" />
+		</div>
+
+		<h1>TMNT (2007)</h1>
+
+		<!-- overall content area -->
+		<div id="overallArea">
+
+			<!-- left section -->
+			<div id="left">
+
+				<div id="rateScore">
+					<img src="http://allisonobourn.com/images/rottenlarge.png" alt="Rotten" />
+					33<span id="extra">% (out of 88 reviews)</span>
+				</div>
+				
+				<!-- left section with two columns for reviews-->
+				<div id="columns">
+					<div id="leftReviews">
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/rotten.gif" alt="Rotten" />
+								<q>Ditching the cheeky, self-aware wink that helped to excuse the concept's inherent corniness, the movie attempts to look polished and 'cool,' but the been-there animation can't compete with the then-cutting-edge puppetry of the 1990 live-action movie.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Peter Debruge <br />
+								<span>Variety</span>
+							</p>
+						</div>
+					
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/fresh.gif" alt="Fresh" />
+								<q>TMNT is a fun, action-filled adventure that will satisfy longtime fans and generate a legion of new ones.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Todd Gilchrist <br />
+								<span>IGN Movies</span>
+							</p>
+						</div>
+
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/rotten.gif" alt="Rotten" />
+								<q>It stinks!</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Jay Sherman (unemployed)
+							</p>
+						</div>
+							
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/rotten.gif" alt="Rotten" />
+								<q>The rubber suits are gone and they've been redone with fancy computer technology, but that hasn't stopped them from becoming dull.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Joshua Tyler <br />
+								<span>CinemaBlend.com</span>
+							</p>
+						</div>
+							
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/rotten.gif" alt="Rotten" />
+								<q>Silly, but an enjoyable, well-paced fantasy-action story.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Will Crain <br />
+								<span>San Francisco Chronicle</span>
+							</p>
+						</div>
+						
+					</div> <!-- leftReviews -->
+					
+					<!-- Right column review-->
+					<div id="rightReviews">
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/rotten.gif" alt="Rotten" />
+								<q>The turtles themselves may look prettier, but are no smarter; torn irreparably from their countercultural roots, our superheroes on the half shell have been firmly co-opted by the industry their creators once sought to spoof.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Jeannette Catsoulis <br />
+								<span>New York Times</span>
+							</p>
+						</div>
+						
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/rotten.gif" alt="Rotten" />
+								<q>Impersonally animated and arbitrarily plotted, the story appears to have been made up as the filmmakers went along.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Ed Gonzalez <br />
+								<span>Slant Magazine</span>
+							</p>
+						</div>
+						
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/fresh.gif" alt="Fresh" />
+								<q>The striking use of image and motion allows each sequence to leave an impression. It's an accomplished restart to this franchise.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Mark Palermo <br />
+								<span>Coast (Halifax, Nova Scotia)</span>
+							</p>
+						</div>
+						
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/rotten.gif" alt="Rotten" />
+								<q>The script feels like it was computer generated. This mechanical presentation lacks the cheesy charm of the three live action films.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Steve Rhodes <br />
+								<span>Internet Reviews</span>
+							</p>
+						</div>
+						
+						<div class="critics-reviews">
+							<p class="quotes">
+								<img src="http://allisonobourn.com/images/rotten.gif" alt="Rotten" />
+								<q>That's really what TMNT lacks most -- humor. Despite the doll-like cartoonishness of the human figures, the filmmakers seem to expect us to take this animated romp seriously. Too seriously.</q>
+							</p>
+							<p>
+								<img src="http://allisonobourn.com/images/critic.gif" alt="Critic" />
+								Michael Ordona <br />
+								<span>Los Angeles Times</span>
+							</p>
+						</div>
+					</div> <!-- right column reviews-->
+				</div>
+			</div><!-- end tag left section-->
+			
+			<!-- Right Section -->
+			<div id="right">
+				<div>
+					<img src="http://allisonobourn.com/images/overview.png" alt="general overview" />
+				</div>
+				
+				<dl>
+					<dt>STARRING</dt>
+					<dd>Patrick Stewart <br /> Mako <br /> Sarah Michelle Gellar <br /> Kevin Smith</dd>
+
+					<dt>DIRECTOR</dt>
+					<dd>Kevin Munroe</dd>
+
+					<dt>RATING</dt>
+					<dd>PG</dd>
+
+					<dt>THEATRICAL RELEASE</dt>
+					<dd>Mar 23, 2007</dd>
+
+					<dt>MOVIE SYNOPSIS</dt>
+					<dd>After the defeat of their old arch nemesis, The Shredder, the Turtles have grown apart as a family.</dd>
+
+					<dt>MPAA RATING</dt>
+					<dd>PG, for animated action violence, some scary cartoon images and mild language</dd>
+
+					<dt>RELEASE COMPANY</dt>
+					<dd>Warner Bros.</dd>
+
+					<dt>RUNTIME</dt>
+					<dd>90 mins</dd>
+
+					<dt>GENRE</dt>
+					<dd>Action/Adventure, Comedies, Childrens, Martial Arts, Superheroes, Ninjas, Animated Characters</dd>
+
+					<dt>BOX OFFICE</dt>
+					<dd>$54,132,596</dd>
+
+					<dt>LINKS</dt>
+					<dd>
+						<ul>
+							<li><a href="http://www.ninjaturtles.com/">The Official TMNT Site</a></li>
+							<li><a href="http://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles/">RT Review</a></li>
+							<li><a href="http://www.rottentomatoes.com/">RT Home</a></li>
+						</ul>
+					</dd>
+				</dl>		
+			</div> <!-- End tag for right column-->
+
+			<p id="page">(1-10) of 88</p>
+
+		</div> <!-- End tag for overall-->
+
+		<div id="W3C">
+			<a href="http://validator.w3.org"><img src="https://webster.cs.washington.edu/images/w3c-html.png" alt="Valid HTML5" /></a><br />
+			<a href="http://jigsaw.w3.org/css-validator"><img src="https://webster.cs.washington.edu/images/w3c-css.png" alt="Valid CSS" /></a>
+		</div>
+	</body>
+</html>

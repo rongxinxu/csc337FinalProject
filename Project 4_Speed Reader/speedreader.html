@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+    University of Arizona
+    CSC337 Homework Assignment 4
+    SpeedReader
+    Author: Vincent Xu
+    NetID: rongxinxu
+
+    This html file is for the text content of the main page,
+    also included the following feature:
+    @ readerBox for the animation (display words)
+    @ Buttons for start and stop
+    @ Speed and Size
+    @ Text input Area
+-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SpeedReader</title>
+    <link rel="stylesheet" type="text/css" href="speedreader.css" />
+    <script src="speedreader.js"></script>
+</head>
+<body>
+    <h1 id="title">SpeedReader</h1>
+
+    <div id="readerBox">
+    </div>
+
+    <div id="controls">
+
+        <fieldset>
+            <legend>Play Controls:</legend>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+        </fieldset>
+
+        <!-- Drop-Down List of Speeds-->
+        <fieldset>
+            <legend>Speed</legend>
+            <select name="speedsList" id="wpm">
+                <option value="500">50 wpm</option>
+                <option value="200">300 wpm</option>
+                <option value="171" selected="selected" >350 wpm</option>
+                <option value="150">400 wpm</option>
+                <option value="133">450 wpm</option>
+                <option value="120">500 wpm</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Size:</legend>
+            <label><input type="radio" name="size" value="36" id="medium" checked="checked" /> Medium</label>
+            <label><input type="radio" name="size" value="48" id="big" /> Big</label>
+            <label><input type="radio" name="size" value="60" id="bigger" /> Bigger</label>
+        </fieldset>
+    </div>
+    
+    <!-- Input TextBox-->
+    <div id="lastFieldset">
+        <fieldset id="inputArea">
+            <legend>Input Text</legend>
+            <textarea id="inputBox" cols="80" rows="10"></textarea>
+        </fieldset>
+    </div>
+
+    <div id="W3C">
+        <a href="https://validator.w3.org/check/referer">
+            <img src="http://allisonobourn.com/images/w3c-html-blue.png" alt="Valid HTML5" />
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img src="http://allisonobourn.com/images/w3c-css-blue.png" alt="Valid CSS" />
+        </a>
+        <a href="https://webster.cs.washington.edu/jslint/?referer">
+            <img src="http://allisonobourn.com/images/w3c-js-blue.png" alt="Valid JavaScript" />
+        </a>
+    </div>
+</body>
+</html>
